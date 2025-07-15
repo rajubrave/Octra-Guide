@@ -22,3 +22,6 @@ bun run build
 ````bash
 bun start
 ````
+
+
+Wallet Generated, Back up private key
