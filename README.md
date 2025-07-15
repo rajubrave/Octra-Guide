@@ -10,4 +10,7 @@ source ~/.bashrc
 bun --version
 ````
 
-Step 2:
+## Step 2:
+````bash
+bun install
+````
