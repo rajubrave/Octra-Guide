@@ -35,3 +35,61 @@ Quest1 - Send Tokens
 ````bash
 pip install -r requirements.txt
 ````
+
+## Step 2
+````bash
+cp wallet.json.example wallet.json
+````
+
+## Step 3
+Paste your test wallet details
+````bash
+{
+  "priv": "private key here",
+  "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "rpc": "https://octra.network"
+}
+````
+## Step 4 : Send a test transaction
+Replace address with any address from explorer - https://octrascan.io/
+
+````bash
+python cli.py send --to octECeUEKyTeFMYBumubqnskCYo292LJaDi8pR7ETJB4NYz --amount 0.01
+````
+
+Quest2 - encrypt & decrypt Tokens
+
+## Step 1
+````bash
+pip install -r requirements.txt
+````
+
+## Step 2
+````bash
+cp wallet.json.example wallet.json
+````
+
+## Step 3
+open the file: wallet.json
+Replace with your Pvt key & octra address u generated in previous guide
+
+````bash
+{
+  "priv": "private key here",
+  "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "rpc": "https://octra.network"
+}
+````
+
+##  Step 4 : Send a test transaction
+
+Replace address with any address from explorer - https://octrascan.io/
+
+````bash
+python cli.py send --to octECeUEKyTeFMYBumubqnskCYo292LJaDi8pR7ETJB4NYz --amount 0.01
+````
+Now run 4th cmd
+
+Blue Terminal will open
+
+type 4 for encrypton & 5 for decryption of tokens
